@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack --watch",
+    "release": "NODE_ENV=production webpack"
+  },
+  "dependencies": {
+    "css-loader": "^5.1.1",
+    "html-webpack-plugin": "^5.3.0",
+    "postcss": "^8.4.26",
+    "style-loader": "^2.0.0",
+    "todomvc-app-css": "2.2.0",
+    "todomvc-common": "1.0.5",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^8.0.0"
+  }
+}
